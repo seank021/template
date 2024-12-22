@@ -1,7 +1,12 @@
+import { Header } from './components/header'
+
 export const App: React.FC = () => {
     return (
         <div>
-        <h1>Hello World</h1>
+            <Header />
+            <main>
+                <h1>App</h1>
+            </main>
         </div>
-    );
-};
+    )
+}
